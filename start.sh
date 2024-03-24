@@ -2,13 +2,13 @@
 
 # 下面设置ARGO参数 (如果设置，注意把前面的# 去掉，如果不设置，默认启用临时隧道)
 # json或token,支持直接复制全部，如cloudflared.exe service install eyxxx，json获取地址https://fscarmen.cloudflare.now.cc
-export TOK=${TOK:-''}
-export ARGO_DOMAIN=${ARGO_DOMAIN:-''}
+export TOK=${TOK:-'eyJhIjoiNjI3N2MyMDE1N2E5ZTIyNmNkNGI2YzdlZWNiYzdmYTYiLCJ0IjoiYWY2ZGJmYzItYzgzNy00NmM1LTg5OGItM2I1ZDQ0Y2QzNGY1IiwicyI6IlpqUXdNRGMxWkdZdFl6ZzFNeTAwTm1JMUxUazFPRFF0TUdaaE5UTTNZVEUxWXpReSJ9'}
+export ARGO_DOMAIN=${ARGO_DOMAIN:-'back4.babiq.eu.org'}
 
 
 #下面设置哪吒参数(NEZHA_TLS='1'开启tls,设置其他关闭tls)
-export NEZHA_SERVER=${NEZHA_SERVER:-''}
-export NEZHA_KEY=${NEZHA_KEY:-''}
+export NEZHA_SERVER=${NEZHA_SERVER:-'nezha.babiq.eu.org'}
+export NEZHA_KEY=${NEZHA_KEY:-'sXww2EvTu2NNCS8COC'}
 export NEZHA_PORT=${NEZHA_PORT:-'443'}
 export NEZHA_TLS=${NEZHA_TLS:-'1'}
 
