@@ -14,7 +14,7 @@ export NEZHA_TLS=${NEZHA_TLS:-'1'}
 
 
 # 下面设置UUID和路径，CF_IP是优选IP，SUB_NAME为节点名称
-export UUID=${UUID:-'fd80f56e-93f3-4c85-b2a8-c77216c509a7'}
+export UUID=${UUID:-'c034c030-878b-4a31-ab7d-cf19ac6e012d'}
 export VPATH=${VPATH:-'vls'} 
 export MPATH=${MPATH:-'vms'} 
 export CF_IP=${CF_IP:-'ip.sb'} 
