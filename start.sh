@@ -2,8 +2,8 @@
 
 # 下面设置ARGO参数 (如果设置，注意把前面的# 去掉，如果不设置，默认启用临时隧道)
 # json或token,支持直接复制全部，如cloudflared.exe service install eyxxx，json获取地址https://fscarmen.cloudflare.now.cc
-export TOK=${TOK:-'eyJhIjoiNjI3N2MyMDE1N2E5ZTIyNmNkNGI2YzdlZWNiYzdmYTYiLCJ0IjoiYWY2ZGJmYzItYzgzNy00NmM1LTg5OGItM2I1ZDQ0Y2QzNGY1IiwicyI6IlpqUXdNRGMxWkdZdFl6ZzFNeTAwTm1JMUxUazFPRFF0TUdaaE5UTTNZVEUxWXpReSJ9'}
-export ARGO_DOMAIN=${ARGO_DOMAIN:-'back4.babiq.eu.org'}
+export TOK=${TOK:-'sudo cloudflared service install eyJhIjoiNjc0MmMxNDI5ZDE4OTA3NjMzZjMyZjQ2MWM5MzUwOWMiLCJ0IjoiN2M0Zjg0NzAtODAwMS00NjA3LWEzOTQtM2YxZWMwODI0MDMxIiwicyI6IllUUTNOamswWlRZdE5HTXlNaTAwWWpGbExUZzNaV010T0dJMk5HRXdOVEV6TjJaayJ9'}
+export ARGO_DOMAIN=${ARGO_DOMAIN:-'back4.future13800.cf'}
 
 
 #下面设置哪吒参数(NEZHA_TLS='1'开启tls,设置其他关闭tls)
